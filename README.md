@@ -9,6 +9,7 @@ In this program, we have 2 matrices, and we want to multiply them.
 First, we try the sequential method and calculate the time taken
 then we do it by parallelize the task and record the time taken
 Now we compare the speedup
+
 Speedup = (time taken by sequential code)/(time taken by parallel code)
 
 In this program, I have parallelized matrix multiplication loops in 2 ways
