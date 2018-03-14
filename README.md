@@ -5,10 +5,9 @@ To use OpenMP in visual studio, we have to enable it first:
 2) Then click on Project (available in Toolbar)  
 3) Properties->C/C++->language->OpenMP support:yes
 
-In this program, we have 2 matrices, and we want to multiply them.
-First, we try the sequential method and calculate the time taken
-then we do it by parallelize the task and record the time taken
-Now we compare the speedup
+In this program, we have 2 matrices, and we want to multiply them. 
+First, we try the sequential method and calculate the time taken then we do it by parallelizing the task (with 2,4 and 8 threads)
+and record the time to execute. Now we compare the speedup
 
 Speedup = (time taken by sequential code)/(time taken by parallel code)
 
